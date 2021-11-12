@@ -2,7 +2,7 @@
 
 
 ## VOLCANO
-VOLCANO shows the different kind of watch and their band price.
+It's shows the different kind of watch and their band price.
 
 ### Website Link: https://volcano-watch-website.web.app/
 
