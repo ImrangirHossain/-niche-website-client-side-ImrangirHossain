@@ -10,7 +10,6 @@ const Products = () => {
         .then(res => res.json())
         .then(data=> setProducts(data))
     },[]);
-    console.log(products)
     if (isLoading) {
         return<div className="spinner-border text-info" role="status"></div>
         }

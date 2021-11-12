@@ -25,7 +25,6 @@ const AllOrderDetails = (props) => {
         const updateStatus = {img:order.img, title:order.title, discription:order.discription, status: 'Approved '  }
 
         const url = `https://dry-spire-45697.herokuapp.com/orders/${id}`;
-        console.log(url);
         fetch(url, {
             method: 'PUT',
             headers: {

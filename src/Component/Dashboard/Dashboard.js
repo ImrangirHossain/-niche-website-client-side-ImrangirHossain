@@ -12,7 +12,6 @@ const Dashboard = () => {
       fetch(`https://dry-spire-45697.herokuapp.com/checkAdmin/${user?.email}`)
       .then(res => res.json())
       .then(data=> {
-          console.log(data);
           if(data[0]?.role === "admin"){
             setIsAdmin(true)
           }

@@ -10,6 +10,7 @@ import FutureWrapper from '../FutureWrapper/FutureWrapper';
 import Header from '../Header/Header';
 import Products from '../Products/Products';
 import Reviews from '../Reviews/Reviews';
+import WinterCollection from '../WinterCollection/WinterCollection';
 // import Services from '../Services/Services';
 
 
@@ -27,6 +28,8 @@ const Home = () => {
              <FutureWrapper></FutureWrapper>
 
              <Products></Products>
+
+             <WinterCollection></WinterCollection>
 
              <Reviews></Reviews>
 
