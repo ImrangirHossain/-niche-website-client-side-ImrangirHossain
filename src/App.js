@@ -25,7 +25,7 @@ function App() {
            <Route path='/explore'>
                 <Explore></Explore>
             </Route>
-            <PrivateRoute path='/dashboard '>
+            <PrivateRoute path='/dashboard'>
                 <Dashboard></Dashboard>
             </PrivateRoute>
             <PrivateRoute path='/placeOrder/:produceId'>

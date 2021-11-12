@@ -25,7 +25,7 @@ const Header = () => {
               </li>
 
               {user?.email && <li className="nav-item px-3">
-                <Link className="nav-link active fw-bold my-1" aria-current="page" to="/dashboard ">DASHBOARD </Link>
+                <Link className="nav-link active fw-bold my-1" aria-current="page" to="/dashboard">DASHBOARD</Link>
               </li>}
              
              <li className="nav-link active fw-bold px-2">
